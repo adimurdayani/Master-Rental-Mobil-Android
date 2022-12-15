@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_bank"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/bri" />
+
+        <TextView
+            android:id="@+id/nama_bank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/img_bank"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Nama Bank"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/nomo_rekening"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nama_bank"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/img_bank"
+            android:fontFamily="@font/poppins_medium"
+            android:text="091273981212"
+            android:textColor="@color/grey3"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/nama_penerima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nomo_rekening"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/img_bank"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Nama Penerima"
+            android:textColor="@color/grey3"
+            android:textSize="11sp" />
+
+        <RadioButton
+            android:id="@+id/rb_pengiriman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:checked="false" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

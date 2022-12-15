@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/item_keranjang"
+        android:icon="@drawable/ic_shopping_cart"
+        android:title="@string/keranjang" />
+    <item
+        android:id="@+id/item_riwayat"
+        android:icon="@drawable/ic_shopping_bag"
+        android:title="@string/riwayat" />
+    <item
+        android:id="@+id/item_user"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/user" />
+</menu>

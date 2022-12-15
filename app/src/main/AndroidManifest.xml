@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nurul.rentalmobil">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/config_network"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RentalMobil"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ui.auth.PasswordPostActivity"></activity>
+        <activity android:name=".ui.auth.EmailPostActivity" />
+        <activity android:name=".ui.riwayat.DetailRiwayat" />
+        <activity android:name=".ui.metode.SuksesActivity" />
+        <activity android:name=".ui.metode.MetodePembayaran" />
+        <activity android:name=".ui.detail.DetailMobilActivity" />
+        <activity android:name=".ui.home.all.AllMobil" />
+        <activity android:name=".ui.home.allkategori.AllKategoriActivity" />
+        <activity android:name=".ui.content.BantuanActivity" />
+        <activity android:name=".ui.content.TentangActivity" />
+        <activity android:name=".ui.content.AlamatActivity" />
+        <activity android:name=".ui.edit.UbahPassword" />
+        <activity android:name=".ui.edit.UbahProfile" />
+        <activity android:name=".ui.auth.RegisterActivity" />
+        <activity android:name=".ui.auth.LoginActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

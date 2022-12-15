@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Mobil Rental</string>
+    <string name="home">Home</string>
+    <string name="keranjang">Keranjang</string>
+    <string name="riwayat">Riwayat</string>
+    <string name="user">Setting</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="nama">Nama</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="konfir_password">Konfirmasi Password</string>
+    <string name="register">Register</string>
+    <string name="simpan">Simpan</string>
+    <string name="name">Name</string>
+    <string name="konfir_pass">Konfirmasi Password</string>
+    <string name="alamat">Alamat</string>
+    <string name="nik">NIK</string>
+    <string name="rental_mobil">
+        Rental mobil, sewa mobil, atau agen sewa mobil adalah perusahaan yang menyewakan mobil untuk jangka waktu yang singkat, umumnya mulai dari beberapa jam sampai beberapa minggu. Sering diatur dengan banyak cabang lokal (yang memungkinkan pengguna untuk mengembalikan kendaraan ke lokasi yang berbeda), dan terutama terletak di dekat bandara atau daerah kota yang sibuk dan sering dilengkapi dengan situs web yang memungkinkan pemesanan online.
+    </string>
+    <string name="rental_mobil2">
+        Agen penyewaan mobil terutama melayani orang-orang yang membutuhkan kendaraan sementara, misalnya, mereka yang tidak memiliki mobil sendiri, pelancong yang berada di luar kota, atau pemilik kendaraan yang rusak atau hancur yang sedang menunggu perbaikan atau kompensasi asuransi . Agen penyewaan mobil juga dapat melayani kebutuhan industri yang bergerak sendiri, dengan menyewa van atau truk, dan di pasar tertentu, jenis kendaraan lain seperti sepeda motor atau skuter juga dapat ditawarkan.
+    </string>
+    <string name="rental_mobil3">
+        Di samping penyewaan dasar kendaraan, agen penyewaan mobil biasanya juga menawarkan produk tambahan seperti asuransi, sistem navigasi global positioning system (GPS), sistem hiburan, ponsel, WiFi portabel dan kursi keselamatan anak.
+    </string>
+    <string-array name="kelamin">
+        <item>Perempuan</item>
+        <item>Laki-Laki</item>
+    </string-array>
+
+    <string name="pengertian_tokoonline">Menurut Kamus Besar Bahasa Indonesia (KBBI), toko adalah kedai berupa bangunan permanen tempat menjual barang-barang (makanan kecil dan sebagainya). Sedangkan menurut wikipedia, online atau daring adalah menunjukkan keadaan konektivitas, dalam hal ini tentu saja saat terhubung dengan internet.</string>
+    <string name="pengertian_toko_buku">Toko buku adalah toko yang menyediakan buku-buku yang dijual secara daring sehingga memudahkan konsumen untuk membeli buku yang diinginkan. Aplikasi ini memiliki fitur jasa pengiriman yang dapat mengantarkan pesanan sampai kerumah.</string>
+    <string name="langkah_pertama">Langkah pertama yang harus dilakukan, anda harus melakukan proses registrasi akun terlebih dahulu agar dapat melakukan proses transaksi di dalam aplikasi.</string>
+    <string name="langkah_kedua">Langkah kedua anda dapat melakukan proses transaksi apabila anda telah memiliki akun. Dalam proses transaksi anda harus tetapkan alamat agar sistem dapat menghitung ongkos kirim sesuai dengan alamat anda.</string>
+    <string name="langkah_ketiga">Jika anda membeli sebuah produk, anda dapat memilih jasa pengiriman yang tampil pada halaman pembayaran dengan catatan alamat anda harus ada.</string>
+    <string name="langkah_empat">Setelah selesai, anda dapat memilih metode pembayaran yang ada. Setelah itu produk yang anda pesan secara otomatis terkirim ke penjual.</string>
+    <string name="langkah_lima">Metode pembayaran yang dilakukan dengan menggunakan metode transfer tunai kerekening yang disediakan disistem.</string>
+</resources>
